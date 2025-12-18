@@ -11,6 +11,7 @@
     "dev:proxy": "tsx --tsconfig tsconfig.server.json server/pexipProxy.ts"
   },
   "dependencies": {
+    "purecloud-platform-client-v2": "^241.0.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },

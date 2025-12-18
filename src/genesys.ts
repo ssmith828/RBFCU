@@ -3,7 +3,7 @@
 // ───────────────────────────────────────────────────────────────────────────────
 
 import platformClient from "purecloud-platform-client-v2";
-import { MasterVariables } from "../masterVariables";
+import { MasterVariables } from "./masterVariables";
 
 const client = platformClient.ApiClient.instance;
 

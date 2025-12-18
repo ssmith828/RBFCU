@@ -8,7 +8,7 @@
 // ───────────────────────────────────────────────────────────────────────────────
 
 import platformClient from "purecloud-platform-client-v2";
-import { MasterVariables } from "../masterVariables";
+import { MasterVariables } from "./masterVariables";
 import { loginGenesys } from "./genesys";
 
 export type DialOption = { label: string; value: string };

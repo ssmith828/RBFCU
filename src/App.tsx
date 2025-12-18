@@ -13,7 +13,7 @@ import type {
 } from "./types";
 import { fetchRegisteredEndpoints } from "./api";
 import type { DialOption } from "./api";
-import { MasterVariables } from "../masterVariables";
+import { MasterVariables } from "./masterVariables";
 import { getCurrentUserId, listMyQueues, type AgentQueue } from "./genesys";
 import "./theme.css";
 
